@@ -1,0 +1,59 @@
+# Конфигурация Personal Communication Assistant
+
+# Telegram API
+telegram:
+  api_id: ""  # Получить на https://my.telegram.org
+  api_hash: ""  # Получить на https://my.telegram.org
+  phone: ""  # +79991234567
+  session_name: "communication_assistant"
+  clone_dialogs: true  # Клонировать диалоги для обучения
+  max_messages_per_dialog: 1000
+
+# Модели
+models:
+  base_model: "sberbank-ai/rugpt3small_based_on_gpt2"
+  device: "cuda"
+
+# Контексты общения
+communication_contexts:
+  - name: "professional"
+    description: "Деловое, формальное общение"
+    emoji: "💼"
+    use_cases: ["работа", "коллеги", "начальство", "клиенты"]
+
+  - name: "family"
+    description: "Семейное, неформальное общение"
+    emoji: "👨‍👩‍👧‍👦"
+    use_cases: ["родители", "дети", "родственники", "семья"]
+
+  - name: "romantic"
+    description: "Романтическое общение"
+    emoji: "💘"
+    use_cases: ["флирт", "отношения", "свидания"]
+
+  - name: "friendly"
+    description: "Дружеское общение"
+    emoji: "👥"
+    use_cases: ["друзья", "приятели", "знакомые"]
+
+  - name: "creative"
+    description: "Креативное, творческое общение"
+    emoji: "🎭"
+    use_cases: ["юмор", "ирония", "метафоры", "творчество"]
+
+# Обучение
+training:
+  personalization:
+    enabled: true
+    min_messages_per_style: 50
+    create_style_profile: true
+    save_adapters: true
+
+  contexts:
+    train_all_contexts: true
+    context_specific_adapters: true
+
+# Пути
+paths:
+  style_profiles: "data/style_profiles"
+  cloned_data: "data/cloned"

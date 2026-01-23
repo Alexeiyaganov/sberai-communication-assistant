@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f968cbea-f747-4b8e-afe0-d50f7b123dad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sberai-flirt-assistant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/.last_opt_in_prompt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/.last_survey_prompt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/.last_update_check.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/active_config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/config_sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/configurations/config_default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/default_configs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/gce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/hidden_gcloud_config_universe_descriptor_data_cache_configs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/logs/2025.12.11/14.33.40.102128.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/logs/2025.12.11/14.34.12.303029.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/logs/2025.12.11/14.34.22.298248.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/logs/2025.12.11/14.34.28.289959.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/logs/2025.12.11/14.34.38.212031.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/logs/2025.12.11/14.34.39.029902.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/telegram_cloner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/empathetic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/empathetic/adapter_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/empathetic/adapter_model.safetensors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/formal/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/formal/adapter_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/formal/adapter_model.safetensors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/friendly/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/friendly/adapter_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/friendly/adapter_model.safetensors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/humorous/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/humorous/adapter_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/humorous/adapter_model.safetensors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/context_router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/my_style_data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_connect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_push.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/personal_trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/style_analyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" />
-    </list>
+    <list default="true" id="f968cbea-f747-4b8e-afe0-d50f7b123dad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,9 +67,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="205" column="10" selection-start-line="205" selection-start-column="10" selection-end-line="205" selection-end-column="10" />
+              <folding>
+                <element signature="e#83#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="441">
+                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -135,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/model/personal_trainer.py" />
         <option value="$PROJECT_DIR$/src/model/context_router.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -203,15 +181,15 @@
       <updated>1769188257589</updated>
       <workItem from="1769188260157" duration="604000" />
       <workItem from="1769200809180" duration="644000" />
-      <workItem from="1769207697566" duration="765000" />
+      <workItem from="1769207697566" duration="1098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2013000" />
+    <option name="totallyTimeSpent" value="2346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
@@ -290,7 +268,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="205" column="10" selection-start-line="205" selection-start-column="10" selection-end-line="205" selection-end-column="10" />
+          <folding>
+            <element signature="e#83#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="441">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

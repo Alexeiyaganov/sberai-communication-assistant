@@ -2,9 +2,9 @@
 
 # Telegram API
 telegram:
-  api_id: ""  # Получить на https://my.telegram.org
-  api_hash: ""  # Получить на https://my.telegram.org
-  phone: ""  # +79991234567
+  api_id: "32569374"  # Получить на https://my.telegram.org
+  api_hash: "f148c2e36cf3ee93a47aade5520bd8bc"  # Получить на https://my.telegram.org
+  phone: "+79216317520"
   session_name: "communication_assistant"
   clone_dialogs: true  # Клонировать диалоги для обучения
   max_messages_per_dialog: 1000

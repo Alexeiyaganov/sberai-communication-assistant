@@ -18,7 +18,7 @@ class TelegramStyleCloner:
 
     def __init__(self, config):
         self.config = config
-        self.api_id = config.telegram.api_id
+        self.api_id = config['telegram']['api_id']
         self.api_hash = config.telegram.api_hash
         self.phone = config.telegram.phone
         self.session_name = config.telegram.session_name

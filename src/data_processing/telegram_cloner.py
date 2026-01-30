@@ -194,7 +194,7 @@ class TelegramStyleCloner:
                 messages = await self.extract_my_messages(
                     dialog,
                     context,
-                    limit=self.config.telegram.max_messages_per_dialog
+                    limit=self.config['telegram'].get('max_messages_per_dialog', 1000)
                 )
 
                 if messages:

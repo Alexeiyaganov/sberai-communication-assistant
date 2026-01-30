@@ -35,9 +35,21 @@ def clone_my_style(config):
         print(f"❌ Ошибка клонирования: {e}")
 
 
-def train_personal_model(config):
+def train_personal_model(config_dict):
     """Обучает персонализированную модель"""
     from model.personal_trainer import PersonalizedStyleTrainer
+    from types import SimpleNamespace
+
+    # Преобразуем словарь в объект с доступом по атрибутам
+    def dict_to_namespace(d):
+        if isinstance(d, dict):
+            return SimpleNamespace(**{k: dict_to_namespace(v) for k, v in d.items()})
+        elif isinstance(d, list):
+            return [dict_to_namespace(i) for i in d]
+        else:
+            return d
+
+    config = dict_to_namespace(config_dict)  # Теперь можно использовать config.models.device
 
     print("🎯 Обучение персонализированной модели...")
 
@@ -52,6 +64,8 @@ def train_personal_model(config):
 
     except Exception as e:
         print(f"❌ Ошибка обучения: {e}")
+        import traceback
+        traceback.print_exc()  
 
 
 def demo_assistant(config):

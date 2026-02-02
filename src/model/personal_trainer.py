@@ -169,7 +169,7 @@ class PersonalizedStyleTrainer:
             logging_dir=str(Path(self.config.paths.logs_dir) / context_type),
             logging_steps=10,
             save_strategy="epoch",
-            evaluation_strategy="no",
+            eval_strategy="no",
             report_to="none",
             fp16=self.device == "cuda",
         )
@@ -260,7 +260,7 @@ class PersonalizedStyleTrainer:
             logging_dir=str(Path(self.config.paths.logs_dir) / "my_style"),
             logging_steps=10,
             save_strategy="epoch",
-            evaluation_strategy="epoch",
+            eval_strategy="epoch",
             save_total_limit=2,
             load_best_model_at_end=True,
             metric_for_best_model="eval_loss",

@@ -65,7 +65,7 @@ def train_personal_model(config_dict):
     except Exception as e:
         print(f"❌ Ошибка обучения: {e}")
         import traceback
-        traceback.print_exc()  
+        traceback.print_exc()
 
 
 def demo_assistant(config):

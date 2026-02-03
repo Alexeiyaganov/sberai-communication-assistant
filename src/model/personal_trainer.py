@@ -179,7 +179,6 @@ class PersonalizedStyleTrainer:
             model=model,
             args=training_args,
             train_dataset=tokenized_data,
-            tokenizer=self.tokenizer,
             data_collator=DataCollatorForLanguageModeling(
                 tokenizer=self.tokenizer,
                 mlm=False
@@ -275,7 +274,6 @@ class PersonalizedStyleTrainer:
             args=training_args,
             train_dataset=split_dataset["train"],
             eval_dataset=split_dataset["test"],
-            tokenizer=self.tokenizer,
             data_collator=DataCollatorForLanguageModeling(
                 tokenizer=self.tokenizer,
                 mlm=False
@@ -369,7 +367,8 @@ class PersonalizedStyleTrainer:
         self.base_model = AutoModelForCausalLM.from_pretrained(
             self.base_model_name,
             torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-            device_map="auto" if self.device == "cuda" else None
+            device_map="auto" if self.device == "cuda" else None,
+            tie_word_embeddings=False
         )
 
         print(f"✅ Базовая модель загружена")
